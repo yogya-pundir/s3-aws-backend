@@ -37,4 +37,16 @@ const s3 = new S3({
 
 }
 
+// download file from s3
+
+// function getFileStream(fileKey){
+//     const downloadimg = {
+//         Bucket :bucketname,
+//         key : fileKey
+//     }
+//     return s3.getObject(downloadimg).createReadStream();
+
+// }
+
 exports.uploadFile = uploadFile
+// exports.getFileStream = getFileStream
